@@ -1,0 +1,17 @@
+[1.118s] Invoking command in '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/build/mypubsub': PYTHONPATH=/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/build/mypubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/install/mypubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/build/mypubsub/build --no-deps symlink_data
+[1.423s] running develop
+[1.664s] running egg_info
+[1.664s] writing mypubsub.egg-info/PKG-INFO
+[1.665s] writing dependency_links to mypubsub.egg-info/dependency_links.txt
+[1.665s] writing entry points to mypubsub.egg-info/entry_points.txt
+[1.666s] writing requirements to mypubsub.egg-info/requires.txt
+[1.666s] writing top-level names to mypubsub.egg-info/top_level.txt
+[1.670s] reading manifest file 'mypubsub.egg-info/SOURCES.txt'
+[1.671s] writing manifest file 'mypubsub.egg-info/SOURCES.txt'
+[1.673s] running build_ext
+[1.673s] Creating /home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/install/mypubsub/lib/python3.10/site-packages/mypubsub.egg-link (link to .)
+[1.675s] Installing publisher script to /home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/install/mypubsub/lib/mypubsub
+[1.676s] 
+[1.676s] Installed /home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/build/mypubsub
+[1.676s] running symlink_data
+[1.698s] Invoked command in '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/build/mypubsub' returned '0': PYTHONPATH=/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/build/mypubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/install/mypubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/build/mypubsub/build --no-deps symlink_data

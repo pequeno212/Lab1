@@ -1,0 +1,119 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/bin/colcon', 'build', '--symlink-install']
+[0.102s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=128, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbb55983e20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbb559834f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbb559834f0>>)
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.332s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(mypubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(mypubsub) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(mypubsub) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(mypubsub) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(mypubsub) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(mypubsub) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(mypubsub) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(mypubsub) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(mypubsub) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'mypubsub' with type 'ros.ament_python' and name 'mypubsub'
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.374s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/install
+[0.375s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 364 installed packages in /opt/ros/humble
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'mypubsub' build argument 'cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'mypubsub' build argument 'cmake_target' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'mypubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'mypubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'mypubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'mypubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'mypubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'mypubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'mypubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.419s] DEBUG:colcon.colcon_core.verb:Building package 'mypubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/build/mypubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub', 'merge_install': False, 'path': '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/mypubsub', 'symlink_install': True, 'test_result_base': None}
+[0.419s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.420s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/mypubsub' with build type 'ament_python'
+[0.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('mypubsub', 'ament_prefix_path')
+[0.422s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/share/mypubsub/hook/ament_prefix_path.ps1'
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/share/mypubsub/hook/ament_prefix_path.dsv'
+[0.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/share/mypubsub/hook/ament_prefix_path.sh'
+[0.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.735s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/mypubsub'
+[0.736s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.736s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.222s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_clib, extract_messages, egg_info, alias, build_py, install_headers, clean, test, build_ext, easy_install, install_lib, develop, compile_catalog, init_catalog, bdist_dumb, saveopts, bdist_egg, isort, symlink_data, update_catalog, bdist_wheel, build_scripts, check, setopt, install, register, install_scripts, bdist, install_data, sdist, dist_info, rotate, upload_docs, install_egg_info, build, upload, bdist_rpm, build_sphinx
+[1.548s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --record, --build-directory, --exclude-scripts, --always-unzip, --local-snapshots-ok, --quiet, --help, --zip-ok, --no-find-links, --optimize, --upgrade, --script-dir, --always-copy, --allow-hosts, --force-installation-into-system-dir, --uninstall, --egg-path, --no-user-cfg, --site-dirs, --install-layout, --multi-version, --install-dir, --editable, --no-deps, --version, --find-links, --index-url, --dry-run, --verbose, --user, --prefix
+[1.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/build/mypubsub': PYTHONPATH=/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/build/mypubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/build/mypubsub/build --no-deps symlink_data
+[2.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('mypubsub', 'pythonpath_develop')
+[2.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/build/mypubsub' returned '0': PYTHONPATH=/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/build/mypubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/build/mypubsub/build --no-deps symlink_data
+[2.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/build/mypubsub/share/mypubsub/hook/pythonpath_develop.ps1'
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/build/mypubsub/share/mypubsub/hook/pythonpath_develop.dsv'
+[2.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/build/mypubsub/share/mypubsub/hook/pythonpath_develop.sh'
+[2.147s] Level 1:colcon.colcon_core.environment:checking '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub' for CMake module files
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub' for CMake config files
+[2.152s] Level 1:colcon.colcon_core.environment:checking '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/lib'
+[2.153s] Level 1:colcon.colcon_core.environment:checking '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/bin'
+[2.153s] Level 1:colcon.colcon_core.environment:checking '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/lib/pkgconfig/mypubsub.pc'
+[2.153s] Level 1:colcon.colcon_core.environment:checking '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/lib/python3.10/site-packages'
+[2.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('mypubsub', 'pythonpath')
+[2.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/share/mypubsub/hook/pythonpath.ps1'
+[2.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/share/mypubsub/hook/pythonpath.dsv'
+[2.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/share/mypubsub/hook/pythonpath.sh'
+[2.156s] Level 1:colcon.colcon_core.environment:checking '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/bin'
+[2.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mypubsub)
+[2.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/share/mypubsub/package.ps1'
+[2.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/share/mypubsub/package.dsv'
+[2.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/share/mypubsub/package.sh'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/share/mypubsub/package.bash'
+[2.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/share/mypubsub/package.zsh'
+[2.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/mypubsub/share/colcon-core/packages/mypubsub)
+[2.164s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.164s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.164s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.164s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.171s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.176s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.176s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/local_setup.ps1'
+[2.178s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/_local_setup_util_ps1.py'
+[2.179s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/setup.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/local_setup.sh'
+[2.182s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/_local_setup_util_sh.py'
+[2.183s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/setup.sh'
+[2.184s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/local_setup.bash'
+[2.185s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/setup.bash'
+[2.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/local_setup.zsh'
+[2.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shay/a/aldana0/ece569-fall2026/Lab1/ws1/src/install/setup.zsh'
